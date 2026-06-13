@@ -59,7 +59,7 @@ Update these top-level keys to change the site:
 - `education`
 - `testimonials`
 
-Components do not hardcode profile, experience, project, or testimonial content. The app reads those values through the typed `usePortfolio()` hook in [frontend/src/hooks/usePortfolio.ts](/C:/Users/animesh/Documents/New%20project/frontend/src/hooks/usePortfolio.ts).
+The app reads those values through the typed `usePortfolio()` hook in frontend/src/hooks/usePortfolio.ts.
 
 ## Design notes
 
