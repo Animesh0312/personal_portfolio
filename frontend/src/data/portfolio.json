@@ -1,0 +1,164 @@
+{
+  "profile": {
+    "name": "Animesh Singh",
+    "shortName": "Animesh",
+    "tagline": "Building intelligent systems, solving complex problems, and turning data into actionable insights.",
+    "role": "Software Engineer | Data Science & Risk Analytics Enthusiast",
+    "specialization": "Backend Development, Machine Learning, NLP, Risk & Investigations",
+    "location": "Agra, India",
+    "yearsOfExperience": 1,
+    "bio": "I am a Computer Science undergraduate specializing in Data Science with hands-on experience in backend development, machine learning, and NLP-powered systems. I have built scalable APIs, real-time applications, and AI-driven solutions while working with large datasets and production-grade systems. My interests lie at the intersection of technology, risk analysis, investigations, and data-driven decision making. I enjoy solving challenging problems, designing efficient architectures, and continuously learning new technologies.",
+    "avatarSvg": "<svg viewBox=\"0 0 320 320\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"ring\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#D946EF\"/><stop offset=\"55%\" stop-color=\"#8B5CF6\"/><stop offset=\"100%\" stop-color=\"#F97316\"/></linearGradient><linearGradient id=\"fill\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#171717\"/><stop offset=\"100%\" stop-color=\"#0C0C0C\"/></linearGradient></defs><rect width=\"320\" height=\"320\" rx=\"52\" fill=\"url(#fill)\"/><rect x=\"18\" y=\"18\" width=\"284\" height=\"284\" rx=\"40\" fill=\"none\" stroke=\"url(#ring)\" stroke-width=\"4\" opacity=\"0.8\"/><circle cx=\"160\" cy=\"118\" r=\"48\" fill=\"#1F1F1F\" stroke=\"#4B5563\" stroke-width=\"3\"/><path d=\"M92 244c12-38 44-62 68-62s56 24 68 62\" fill=\"#1A1A1A\" stroke=\"#5B6470\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"143\" cy=\"112\" r=\"6\" fill=\"#BFC9D4\"/><circle cx=\"177\" cy=\"112\" r=\"6\" fill=\"#BFC9D4\"/><path d=\"M141 138c10 9 28 9 38 0\" fill=\"none\" stroke=\"#9099A5\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>",
+    "avatarImage": "/animesh-hero-cartoon.png",
+    "social": {
+      "github": "https://github.com/Animesh0312",
+      "instagram": "",
+      "linkedin": "https://www.linkedin.com/in/animesh-singh-765531269/",
+      "email": "animeshsinghas2003@gmail.com",
+      "phone": "+91 7017333962",
+      "website": ""
+    }
+  },
+
+  "skills": {
+    "categories": [
+      {
+        "name": "Programming",
+        "items": ["Java", "Python", "Data Structures & Algorithms", "OOP"]
+      },
+      {
+        "name": "Backend Development",
+        "items": ["REST APIs", "Authentication", "WebSockets", "System Design", "Docker"]
+      },
+      {
+        "name": "Data Science & AI",
+        "items": ["Machine Learning", "NLP", "Sentence-BERT", "Feature Engineering", "Scikit-learn"]
+      },
+      {
+        "name": "Databases & Tools",
+        "items": ["MySQL", "MongoDB", "Git", "GitHub", "Firebase", "Render"]
+      }
+    ]
+  },
+
+  "experience": [
+    {
+      "company": "IBM",
+      "role": "Project Intern (Industrial Automation & Data Systems)",
+      "period": "Aug 2025 - Oct 2025",
+      "location": "India",
+      "summary": "Worked on large-scale financial data classification and NLP-driven automation systems.",
+      "highlights": [
+        "Engineered a dataset containing 2M+ financial records.",
+        "Developed a hybrid NLP and Machine Learning model achieving 99%+ F1 score across 27 categories.",
+        "Implemented Sentence-BERT based semantic classification pipelines.",
+        "Built real-time prediction and feedback-driven learning workflows."
+      ]
+    },
+    {
+      "company": "Webseeder",
+      "role": "Software Developer Intern",
+      "period": "Jun 2025 - Aug 2025",
+      "location": "India",
+      "summary": "Built scalable backend systems and production-ready APIs.",
+      "highlights": [
+        "Developed 6+ backend services for production deployment.",
+        "Designed secure authentication and authorization mechanisms.",
+        "Optimized database schemas and queries for better scalability.",
+        "Improved system performance through modular architecture."
+      ]
+    },
+    {
+      "company": "Ek Pahel NGO",
+      "role": "Web Development & Outreach Intern",
+      "period": "Jun 2023 - Aug 2023",
+      "location": "India",
+      "summary": "Enhanced digital infrastructure and conducted technical mentorship programs.",
+      "highlights": [
+        "Revamped website architecture and user experience.",
+        "Conducted programming and problem-solving workshops.",
+        "Trained 50+ students in technical fundamentals."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "expenzo-ai",
+      "title": "ExpenzoAI",
+      "subtitle": "AI-Powered Expense Categorization Engine",
+      "description": "Built an intelligent transaction classification platform using Sentence-BERT and structured financial features, achieving over 99% classification accuracy.",
+      "stack": ["Python", "NLP", "Sentence-BERT", "Scikit-learn"],
+      "role": "Lead Developer",
+      "year": "2025",
+      "link": "",
+      "image": "",
+      "highlight": true
+    },
+    {
+      "id": "chat-app",
+      "title": "Real-Time Chat Application",
+      "subtitle": "Scalable WebSocket Communication Platform",
+      "description": "Designed a backend architecture capable of handling 1000+ concurrent real-time messages with secure authentication and optimized database operations.",
+      "stack": ["Java", "WebSockets", "MongoDB"],
+      "role": "Backend Developer",
+      "year": "2025",
+      "link": "",
+      "image": "",
+      "highlight": true
+    },
+    {
+      "id": "rideease",
+      "title": "RideEase",
+      "subtitle": "Ride Sharing Platform",
+      "description": "Developed a ride-sharing application featuring user matching, real-time updates, and scalable Firebase-powered backend services.",
+      "stack": ["Firebase", "Java", "Backend Systems"],
+      "role": "Backend Developer",
+      "year": "2024",
+      "link": "",
+      "image": "",
+      "highlight": false
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science & Engineering (Data Science)",
+      "institution": "University of Petroleum and Energy Studies (UPES)",
+      "period": "2022 - 2026",
+      "location": "Dehradun",
+      "summary": "Focused on Data Science, Machine Learning, Software Engineering, and Backend Development. CGPA: 7.18/10"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "quote": "Animesh combines analytical depth with a builder mindset, which made him especially strong on high-volume data and automation problems.",
+      "name": "IBM Mentor",
+      "role": "Project Guide",
+      "avatarColor": "#D946EF"
+    },
+    {
+      "id": "t2",
+      "quote": "He learns quickly, communicates clearly, and ships practical backend solutions with strong ownership.",
+      "name": "Webseeder Lead",
+      "role": "Engineering Mentor",
+      "avatarColor": "#8B5CF6"
+    },
+    {
+      "id": "t3",
+      "quote": "His work consistently balanced technical implementation with real user and business impact.",
+      "name": "Program Coordinator",
+      "role": "NGO Team Lead",
+      "avatarColor": "#F97316"
+    }
+  ],
+
+  "achievements": [
+    "Top 1% National Science Olympiad (SOF)",
+    "Top 200 out of 1000+ participants in Big Biz Theory 2025",
+    "Top 15% in Common Internship Test among 7,500+ participants",
+    "Participant - Anveshan Startup Challenge 1.0",
+    "Active Model United Nations (MUN) participant"
+  ]
+}

@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #0c0c0c;
+  color: #ffffff;
+  font-family: "Kanit", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(217, 70, 239, 0.35);
+  color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.hero-heading {
+  background: linear-gradient(180deg, #646973 0%, #bbccd7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.testimonial-marquee {
+  animation: testimonial-marquee 28s linear infinite;
+}
+
+.skill-marquee {
+  animation: skill-marquee 22s linear infinite;
+}
+
+.testimonial-track:hover .testimonial-marquee,
+.skill-marquee:hover {
+  animation-play-state: paused;
+}
+
+.grid-overlay {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.84) 45%, transparent 100%);
+}
+
+.hero-stage {
+  transform-style: preserve-3d;
+}
+
+.portrait-tilt {
+  transform-style: preserve-3d;
+  perspective: 1400px;
+  will-change: transform;
+}
+
+.floating-card {
+  animation: float-card 6s ease-in-out infinite;
+}
+
+.floating-card:nth-of-type(2) {
+  animation-duration: 7s;
+}
+
+.floating-card:nth-of-type(3) {
+  animation-duration: 5.4s;
+}
+
+@keyframes testimonial-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes skill-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes float-card {
+  0%,
+  100% {
+    transform: translateY(0px) translateZ(0);
+  }
+  50% {
+    transform: translateY(-10px) translateZ(18px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .testimonial-marquee,
+  .skill-marquee {
+    animation: none;
+    width: auto;
+  }
+
+  .testimonial-card {
+    scroll-snap-align: start;
+  }
+
+  .floating-card {
+    animation: none;
+  }
+}
