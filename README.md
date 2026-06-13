@@ -48,7 +48,7 @@ frontend/
 
 ## Content editing
 
-All portfolio content lives in [frontend/src/data/portfolio.json](/C:/Users/animesh/Documents/New%20project/frontend/src/data/portfolio.json).
+All portfolio content lives in [frontend/src/data/portfolio.json](frontend/src/data/portfolio.json).
 
 Update these top-level keys to change the site:
 
