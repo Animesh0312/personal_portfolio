@@ -1,2 +1,0 @@
-"""Banking support chatbot package."""
-
